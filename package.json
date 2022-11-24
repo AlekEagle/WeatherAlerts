@@ -2,7 +2,7 @@
   "name": "weatheralerts",
   "version": "1.0.3",
   "description": "Weather alert library",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "rd lib /S /Q && npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
