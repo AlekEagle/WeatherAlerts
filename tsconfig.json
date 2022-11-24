@@ -1,11 +1,15 @@
-{
-    "compilerOptions": {
-      "outDir": "./lib",
-      "allowJs": true,
-      "checkJs": true,
-      "target": "es6",
-      "moduleResolution": "Node",
-      "module": "commonjs"
-    },
-    "include": ["./src/**/*"]
-}
+{ 
+   "compilerOptions": { 
+     "outDir": "./dist/", 
+     "sourceMap": true, 
+     "noImplicitAny": true, 
+     "module": "commonjs", 
+     "target": "es2020", 
+     "rootDir": "./src/", 
+     "resolveJsonModule": true, 
+     "typeRoots": ["node_modules/@types"], 
+     "alwaysStrict": true, 
+     "esModuleInterop": true 
+   }, 
+   "include": ["./src/**/*"] 
+ }
